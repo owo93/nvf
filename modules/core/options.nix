@@ -1,5 +1,6 @@
 {
   vim = {
+    undoFile.enable = true;
     globals = {
       mapleader = " ";
     };
