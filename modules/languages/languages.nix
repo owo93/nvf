@@ -23,6 +23,12 @@ let
     html = {
       lsp.servers = [ "emmet-ls" ];
     };
+    typescript = {
+      lsp.servers = [ "deno" ];
+    };
+    tsx = {
+      lsp.servers = [ "deno" ];
+    };
   };
 in
 {
