@@ -12,6 +12,7 @@ let
     "toml"
     "json"
     "yaml"
+    "typst"
   ];
 
   languageOverrides = {
@@ -28,6 +29,10 @@ let
     };
     tsx = {
       lsp.servers = [ "deno" ];
+    };
+    typst = {
+      extensions.typst-preview-nvim.enable = true;
+      format.type = [ "typstyle" ];
     };
   };
 in
