@@ -7,6 +7,7 @@ let
     "markdown"
     "python"
     "html"
+    "css"
     "typescript"
     "tsx"
     "toml"
