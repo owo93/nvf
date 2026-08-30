@@ -14,6 +14,7 @@ let
     "json"
     "yaml"
     "typst"
+    "svelte"
   ];
 
   languageOverrides = {
